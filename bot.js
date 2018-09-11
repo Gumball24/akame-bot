@@ -6,7 +6,7 @@ const bot = new Discord.Client({disableEveryone: true});
 bot.commands = new Discord.Collection();
 
 
-  jsfile.forEach((f, i) =>{
+  files.forEach((f, i) =>{
      let props = require(`./komutlar/${f}`);
      console.log(`${f} loaded!`);
      bot.commands.set(props.help.name, props);
