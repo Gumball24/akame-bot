@@ -2,7 +2,7 @@
   "name": "akame",
   "version": "0.0.1",
   "description": "Akame bot",
-  "main": "index.js",
+  "main": "bot.hs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
