@@ -13,7 +13,6 @@ bot.commands = new Discord.Collection();
 
   });
 
-});
 
 bot.on("ready", async() => {
   console.log(`${bot.user.username} is online`);
